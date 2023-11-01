@@ -14,7 +14,7 @@ package ejemplo01;
 public class Ejemplo05 {
     public static void main(String[] args) {
         // Secuencia de escape \n y \t
-        String nombreEstudiante = "Erick ";
+        String nombreEstudiante = "Erick Jhair";
         String apellidoEstudiante = "Rodas Ordoñez";
         int nacimiento = 2005;
         
@@ -28,8 +28,8 @@ public class Ejemplo05 {
                 "\n"+ nacimiento); */
         System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
         System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);
-        /* el "\n" sirve para dar un espacio
-        el "\t" sirve para dar un salto de linea
+        /* el "\t" sirve para dar un espacio
+        el "\n" sirve para dar un salto de linea
         */
     }
 }
